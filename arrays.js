@@ -36,3 +36,8 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop()
   return array
 }
+
+function removeElementFromEndOfArray(array) {
+  array.slice(iceCreams.length -1)
+  return array
+}
